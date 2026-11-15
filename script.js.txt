@@ -14,7 +14,7 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
     successMsg.textContent = `Hvala, ${name}! Vaša prijava za IT klub je uspješno poslana.`;
     successMsg.classList.remove('hidden');
 
-    // Resetovanje forme
+    //Resetovanje forme
     document.getElementById('signup-form').reset();
 
     // Slanje poruke nestaje nakon 5 sekundi

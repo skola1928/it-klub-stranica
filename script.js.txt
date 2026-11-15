@@ -1,0 +1,24 @@
+document.getElementById('signup-form').addEventListener('submit', function(e) {
+    e.preventDefault(); // Sprječava standardno slanje forme
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const successMsg = document.getElementById('success-msg');
+
+    if (name === "" || email === "") {
+        alert("Molimo popunite sva polja!");
+        return;
+    }
+
+    // Prikaz poruke uspjeha
+    successMsg.textContent = `Hvala, ${name}! Vaša prijava za IT klub je uspješno poslana.`;
+    successMsg.classList.remove('hidden');
+
+    // Resetovanje forme
+    document.getElementById('signup-form').reset();
+
+    // Slanje poruke nestaje nakon 5 sekundi
+    setTimeout(() => {
+        successMsg.classList.add('hidden');
+    }, 5000);
+});

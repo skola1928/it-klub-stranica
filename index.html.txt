@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Školski IT klub / Coding Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigacija -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">💻 IT Klub Gimnazija</div>
+            <ul class="nav-links">
+                <li><a href="#home">Početna</a></li>
+                <li><a href="#about">O nama</a></li>
+                <li><a href="#projects">Projekti</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Sekcija -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Dobro došli u Školski IT Klub</h1>
+            <p>Mjesto gdje kreativnost susreće kodiranje. Uči, stvaraj i razvijaj tehnološku budućnost s nama!</p>
+            <a href="#contact" class="cta-btn">Pridruži nam se</a>
+        </div>
+    </section>
+
+    <!-- O nama / Članovi -->
+    <section id="about" class="about">
+        <h2>O nama</h2>
+        <p class="section-desc">Mi smo grupa entuzijasta zaljubljenih u programiranje, web dizajn i nove tehnologije.</p>
+        <div class="team-grid">
+            <div class="team-card">
+                <h3>Amir Delić</h3>
+                <p>Voditelj kluba i predavač za Python & Web.</p>
+            </div>
+            <div class="team-card">
+                <h3>Emina Hodžić</h3>
+                <p>Glavni dizajner sučelja i front-end developer.</p>
+            </div>
+            <div class="team-card">
+                <h3>Tarik Kovač</h3>
+                <p>Zadužen za robotiku i hardverske projekte.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projekti / Galerija -->
+    <section id="projects" class="projects">
+        <h2>Naši Projekti</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Eko-Škola Aplikacija</h3>
+                <p>Mobilna i web aplikacija za praćenje reciklaže otpada u školi.</p>
+            </div>
+            <div class="project-card">
+                <h3>Školski Intranet</h3>
+                <p>Platforma za razmjenu materijala i učenje između učenika.</p>
+            </div>
+            <div class="project-card">
+                <h3>Mini Bot - Robot</h3>
+                <p>Autonomni robot sastavljen od Arduino komponente i senzora.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt / Prijavi se -->
+    <section id="contact" class="contact">
+        <h2>Prijavi se u IT Klub</h2>
+        <form id="signup-form">
+            <div class="form-group">
+                <label for="name">Ime i prezime:</label>
+                <input type="text" id="name" required placeholder="Unesi svoje ime...">
+            </div>
+            <div class="form-group">
+                <label for="email">Email adresa:</label>
+                <input type="email" id="email" required placeholder="Unesi svoj email...">
+            </div>
+            <div class="form-group">
+                <label for="interest">Odaberi oblast:</label>
+                <select id="interest">
+                    <option value="web">Web programiranje (HTML/CSS/JS)</option>
+                    <option value="python">Python & Algoritmi</option>
+                    <option value="robotics">Robotika & Arduino</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Pošalji prijavu</button>
+            <p id="success-msg" class="hidden"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Školski IT Klub. Sva prava zadržana.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

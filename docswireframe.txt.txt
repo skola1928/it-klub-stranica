@@ -2,3 +2,5 @@ Opis Wireframe-a i Mockupa:
 - Desktop prikaz: Fiksna gornja navigacija (logo + linkovi), velika hero sekcija s pozadinskom slikom i pozivom na akciju (CTA), grid sekcija za članove tima, grid sekcija za kartice projekata i centrirana kontakt forma s validacijom.
 - Mobilni prikaz: Fleksibilna navigacija koja se prilagođava ekranu, elementi u jednoj koloni radi bolje preglednosti na manjim ekranima.
 - Paleta boja: Tamno plava (#2c3e50) za profesionalni ton, plava (#3498db) za detalje i zelena (#2ecc71) za uspješne akcije.
+
+ediiititiitjgijgdijgidj

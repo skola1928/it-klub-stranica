@@ -187,7 +187,7 @@ section h2 {
 
 /* Footer */
 footer {
-    background: #2c3e50;
+    background: #2c4e50;
     color: white;
     text-align: center;
     padding: 20px;

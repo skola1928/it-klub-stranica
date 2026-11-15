@@ -11,3 +11,5 @@ Prezentacijska web stranica školskog kluba za programiranje i tehnologiju razvi
 Samo otvorite fajl `index.html` u bilo kojem modernom web pretraživaču (Chrome, Firefox, Edge).
 
 dodao opis projekta
+
+dodoorkfoke
